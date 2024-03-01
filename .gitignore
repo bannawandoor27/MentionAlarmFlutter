@@ -1,0 +1,104 @@
+# General
+.DS_Store
+.idea/
+*.iml
+*.log
+*.tmp
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+/build/
+# If you're using VSCode, consider excluding workspace files
+.vscode/
+
+# Flutter/Dart specific
+.flutter-plugins
+.flutter-plugins-dependencies
+.generated/
+**/.flutter-plugins-dependencies
+**/.generated_plugin_registrant.*
+
+# Android specific
+/android/.gradle
+/android/build/
+/android/app/debug/
+/android/app/profile/
+/android/app/release/
+/android/key.properties
+/android/local.properties
+
+# iOS/MacOS specific
+ios/Flutter/.last_build_id
+ios/.symlinks/
+ios/Flutter/flutter_export_environment.sh
+ios/Flutter/Generated.xcconfig
+ios/Flutter/AppFrameworkInfo.plist
+ios/Flutter/GeneratedPluginRegistrant.*
+ios/Flutter/podhelper.rb
+ios/Pods/
+ios/Runner.xcworkspace/xcuserdata/
+ios/Runner.xcworkspace/contents.xcworkspacedata
+ios/Runner.xcodeproj/xcuserdata/
+ios/Runner.xcodeproj/project.xcworkspace/xcuserdata/
+ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata
+ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/
+macos/Flutter/ephemeral/
+macos/Pods/
+macos/Runner.xcworkspace/xcuserdata/
+macos/Runner.xcodeproj/xcuserdata/
+macos/Flutter/flutter_export_environment.sh
+macos/Flutter/Generated.xcconfig
+
+# Linux specific
+/linux/flutter/
+/linux/.dart_tool/
+/linux/.project
+
+# Windows specific
+/windows/flutter/
+/windows/.dart_tool/
+/windows/.cxx/
+/windows/*.vcxproj
+/windows/*.vcxproj.filters
+/windows/*.vcxproj.user
+/windows/*.sln
+/windows/*.suo
+/windows/*.opendb
+/windows/*.VC.db
+
+# Web specific
+/web/icons/Icon-*.png
+/web/manifest.json
+/web/favicon.png
+/web/index.html
+
+# Other files and directories to ignore
+**/coverage/
+**/.vs/
+**/*.bak
+**/*.nupkg
+**/Thumbs.db
+*.lock
+doc/api/
+flutter_*.png
+*.mojo
+*.mov
+*.mp4
+*.plist
+*.jpeg
+*.jpg
+*.gif
+*.svg
+*.pdf
+*.png
+
+# If using Firebase, consider excluding Firebase config files
+/google-services.json
+/GoogleService-Info.plist
+
+# Fastlane
+**/fastlane/report.xml
+**/fastlane/Preview.html
+**/fastlane/screenshots
+**/fastlane/test_output
