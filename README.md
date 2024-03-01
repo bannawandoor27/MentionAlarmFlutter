@@ -70,7 +70,7 @@ Here's how you can contribute:
 
 - Ensure your code follows the project's code style and guidelines.
 - Update the README.md with details of changes to the interface or new environment variables.
-- Increase the version numbers in any examples files and the README.md to the new version that this Pull Request would represent. The versioning scheme we use is [SemVer](http://semver.org/).
+- Increase the version numbers in any examples files and the README.md to the new version that this Pull Request would represent. The versioning scheme we use is [ConventionalCommits](https://www.conventionalcommits.org/en/v1.0.0/).
 
 ### Reporting Bugs
 
